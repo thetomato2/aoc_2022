@@ -1,0 +1,43 @@
+###############################
+# Git Line Endings            #
+###############################
+
+* text=auto eol=crlf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+*.{vcxproj,vcxproj.filters} text eol=crlf
+*.c text eol=lf
+*.cc text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
+*.hh text eol=lf
+*.hpp text eol=lf
+
+###############################
+# Git Large File System (LFS) #
+###############################
+
+# Archives
+#*.7z filter=lfs diff=lfs merge=lfs -text
+#*.br filter=lfs diff=lfs merge=lfs -text
+#*.gz filter=lfs diff=lfs merge=lfs -text
+#*.tar filter=lfs diff=lfs merge=lfs -text
+#*.zip filter=lfs diff=lfs merge=lfs -text
+
+# Documents
+#*.pdf filter=lfs diff=lfs merge=lfs -text
+
+# Images
+#*.gif filter=lfs diff=lfs merge=lfs -text
+#*.ico filter=lfs diff=lfs merge=lfs -text
+#*.jpg filter=lfs diff=lfs merge=lfs -text
+#*.pdf filter=lfs diff=lfs merge=lfs -text
+#*.png filter=lfs diff=lfs merge=lfs -text
+#*.psd filter=lfs diff=lfs merge=lfs -text
+#*.webp filter=lfs diff=lfs merge=lfs -text
+
+# Fonts
+#*.woff2 filter=lfs diff=lfs merge=lfs -text
+
+# Other
+#*.exe filter=lfs diff=lfs merge=lfs -text

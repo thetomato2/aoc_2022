@@ -1,0 +1,3 @@
+CompileFlags:
+    Add: [-xjc++, -Wall, -Wno-missing-braces, -Wno-unused-function, -Wno-unused-variable, -Wno-error=undefined-internal]
+    /*Remove: [-Wunused-function, -Wundefined-internal] *?
