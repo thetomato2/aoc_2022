@@ -1,2 +1,1 @@
-# A game, kinda
-made by the one and only TheTomato
+Advent of Code 2022
